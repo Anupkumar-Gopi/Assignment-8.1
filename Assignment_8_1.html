@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Session 8: Assignment 8.1</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<h1 id="head">Enter the system</h1>
+		<small>It is necessary to login in Your account in order to sign up for a course.</small>
+		<br/><br/>
+		<div class="left">			
+			<form name="regstr" method="get">
+				<fieldset>
+					<legend class="lgn"><span class="shade">Are you new?</span> Register</legend>
+					<input type="text" placeholder="User name" id="uname" required/>
+					<input type="text" placeholder="Email" id="email" required/>
+					<input type="text" placeholder="Password" id="pass" required/>
+					<input type="text" placeholder="Confirm Password" id="cpass" required/><br/>
+					<input type="submit" value="Register" id="regstr" class="btn pull-right"/>
+				</fieldset>
+			</form>
+		</div>
+		<div class="right">
+			<form name="login" method="get">
+				<fieldset>
+					<legend>Already a student? Login</legend>
+					<input type="text" placeholder="User name" id="luname" required/>					
+					<input type="text" placeholder="Password" id="lpass" required/><br/>
+					<input type="checkbox" id="rembr"/> <label for="rembr">Remember me?</label>
+					<input type="submit" value="Login" id="lgn" class="btn pull-right"/><br class="clear"/><br/>
+					<small style="float:right"><a href="#" title="Forgot Password">Forgot Password?</a></small>
+				</fieldset>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>
+<script src="js/app.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
